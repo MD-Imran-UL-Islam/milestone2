@@ -1,6 +1,6 @@
 .container {
 
-    border: 1px solid red;
+
     width: 1920px;
     height: 1322px;
     background-color: rgba(255, 144, 14, 0.1);
@@ -73,14 +73,14 @@ Navigation bar
     /* text-align: center; */
     color: #131313;
     margin-top: 80px;
-    border: 1px solid brown;
+
 
 }
 
 .sec-2-h4 {
     width: 450px;
 
-    border: 1px solid red;
+
     text-align: center;
 
 
@@ -93,14 +93,14 @@ Navigation bar
 }
 
 .sec-2-p {
-    width: 100%;
+    width: 80%;
     height: 100%;
     font-weight: 200;
     font-size: 14px;
     font-style: normal;
     color: #727272;
     text-align: center;
-    border: 1px solid red;
+
     margin-top: 30px;
     padding-top: 20px;
 }
@@ -122,8 +122,7 @@ Navigation bar
 }
 
 .sec-2-img {
-
-    border: 1px solid red;
+    border-radius: 8px;
 }
 
 /* --------------------
@@ -154,7 +153,7 @@ Navigation bar
 .info-main {
     width: 537px;
     height: 350px;
-    border: 1px solid red;
+
     margin-left: 73px;
 
 }
@@ -180,7 +179,7 @@ Navigation bar
 }
 
 .para-main {
-    border: 1px solid red;
+
     color: #727272;
     font-size: 16px;
     font-family: 'Work Sans';
@@ -213,7 +212,7 @@ Navigation bar
     width: 1440px;
     height: 1059px;
     margin: 130px 240px;
-    border: 1px solid red;
+
     display: flex;
     justify-content: space-between;
 }
@@ -243,7 +242,7 @@ Navigation bar
 .para-sec-2 {
     width: 586px;
     height: 78px;
-
+    margin-bottom: 30px;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
@@ -256,29 +255,50 @@ Navigation bar
 .feature-label {
     width: 586px;
     height: 764px;
-    border: 1px solid blue;
+    margin-top: 75px;
 }
 
 .articles {
     width: 586px;
     height: 171px;
-    border: 1px solid black;
+    color: #727272;
     box-shadow: 5px 5px 20px rgb(215, 212, 212);
-    margin-bottom: 25px;
-    text-align: left;
+
+
 }
 
-.articles h3,
+.articles h3 {
+    width: 514px;
+    height: 50px;
+    margin-left: 30px;
+    position: relative;
+    top: 30px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+
+}
+
 .articles p {
     width: 514px;
     height: 50px;
-    border: 1px solid yellowgreen;
+
     margin-left: 30px;
+    text-align: left;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
 
 }
 
 .img-sec-2 {
-    border: 1px solid violet;
+
     width: 800px;
     height: 1059px;
     margin-left: 55px;
@@ -306,14 +326,14 @@ Navigation bar
 
 .exp p {
     margin: 50px 30px 50px 30px;
-    border: 1px solid red;
+
 }
 
 /* main section styl for facts
 -------------------------------- */
 
 .sec-3-main {
-    border: 1px solid magenta;
+
     width: 1390px;
     height: 470px;
     margin: 130px 250px 130px 240px;
@@ -334,7 +354,7 @@ Navigation bar
 .sec-3-p {
     width: 542px;
     height: 52px;
-
+    margin-bottom: 80px;
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
@@ -346,7 +366,7 @@ Navigation bar
 .div-img {
     display: flex;
     justify-content: space-around;
-    border: 1px solid black;
+
 }
 
 .div-img-border {
@@ -369,7 +389,7 @@ Navigation bar
 
     width: 160px;
     height: 80px;
-    border: 1px solid green;
+
     position: relative;
     z-index: 1;
     margin-top: -130px;
@@ -387,7 +407,7 @@ Navigation bar
 }
 
 .div-img-border span {
-    border: 1px solid red;
+
     display: block;
     font-family: 'Work Sans';
     font-style: normal;
@@ -403,7 +423,7 @@ Navigation bar
     --------------------------         */
 
 .sec-4-main {
-    border: 1px solid pink;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -425,7 +445,7 @@ Navigation bar
     line-height: 53px;
     color: #131313;
     margin-bottom: 24px;
-    border: 1px solid black;
+
 }
 
 .sec-4-main p {
@@ -439,7 +459,7 @@ Navigation bar
     width: 542px;
     height: 52px;
     color: #727272;
-    border: 1px solid black;
+
 
 }
 
@@ -464,10 +484,13 @@ Navigation bar
     background-color: #FFF4E7;
     border-radius: 8px;
 
-    border: 1px solid blue;
+
 }
 
 .foot p {
+    position: relative;
+    top: 35px;
+    
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 400;
@@ -475,7 +498,9 @@ Navigation bar
     line-height: 23px;
     text-align: center;
     color: #424242;
-    margin-top: 40px;
+    margin: 40px 410px 40px 410px;
+    width: 620px;
+    height: 23px;
 }
 
 /* ------------------
@@ -484,6 +509,7 @@ Navigation bar
      -------
          ------------------
                  */
+/*
     @media only screen and (max-width: 576px) {
         body {
             width: 100%;
@@ -496,12 +522,13 @@ Navigation bar
           display: block;
         }
     }             
+    */
 
-    /*---------
+/*---------
         transition effect----
      -------    
      */
-     .div-img-border:hover {
-        opacity: 0.5;
-        border: 1px solid royalblue;
-     }
+.div-img-border:hover {
+    opacity: 0.5;
+    border: 1px solid royalblue;
+}
