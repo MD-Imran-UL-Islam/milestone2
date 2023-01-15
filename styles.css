@@ -357,6 +357,7 @@ Navigation bar
     border-radius: 8px;
     display: flex;
     flex-direction: column;
+    transition: 0.3s;
 
 }
 
@@ -441,13 +442,66 @@ Navigation bar
     border: 1px solid black;
 
 }
+
 .sec-4-div {
     display: flex;
     justify-content: space-between;
 }
+
 .img-sec-4 {
     width: 160px;
     height: 50px;
     margin-right: 120px;
     filter: grayscale(100%);
 }
+
+/* now comes fooooter */
+
+.foot {
+    width: 1440px;
+    height: 100px;
+    margin: 130px 240px 240px 240px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+
+    border: 1px solid blue;
+}
+
+.foot p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+    margin-top: 40px;
+}
+
+/* ------------------
+            ------------------
+            Responsive Design
+     -------
+         ------------------
+                 */
+    @media only screen and (max-width: 576px) {
+        body {
+            width: 100%;
+        }
+        .section-1 {
+            display: block;
+            width: 100%;
+        }
+        .link {
+          display: block;
+        }
+    }             
+
+    /*---------
+        transition effect----
+     -------    
+     */
+     .div-img-border:hover {
+        opacity: 0.5;
+        border: 1px solid royalblue;
+     }
