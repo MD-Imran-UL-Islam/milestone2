@@ -6,6 +6,10 @@
     background-color: rgba(255, 144, 14, 0.1);
 }
 
+/* -----
+Navigation bar 
+------------ */
+
 .section-1 {
     display: flex;
     justify-content: space-between;
@@ -40,9 +44,13 @@
     font-size: 18px;
     text-align: center;
     color: #424242;
+    list-style-type: none;
 }
 
-
+/* -----------
+     banner related section 2
+-------------------------------
+ */
 .section-2 {
     display: flex;
     flex-direction: column;
@@ -97,9 +105,11 @@
     padding-top: 20px;
 }
 
+/* button of banner */
+
 .sec-2-btn {
     margin-top: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     width: 180px;
     height: 64px;
     border-radius: 8px;
@@ -112,5 +122,187 @@
 }
 
 .sec-2-img {
-    margin-bottom: 30px;
+
+    border: 1px solid red;
+}
+
+/* --------------------
+      main section with teams and info
+  ----------------     */
+
+.sec-1-main {
+    display: flex;
+    margin-top: 85px;
+    align-items: center;
+
+}
+
+/* image rid layout */
+.img-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-left: 301px;
+
+
+}
+
+.img-main img {
+    border-radius: 8px;
+}
+
+.info-main {
+    width: 537px;
+    height: 350px;
+    border: 1px solid red;
+    margin-left: 73px;
+
+}
+
+.faded-clr {
+    color: #727272;
+}
+
+.prmy-clr {
+    color: #FF900E;
+}
+
+.info-main h2 {
+    width: 468px;
+    height: 106px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    margin: 0px;
+
+}
+
+.para-main {
+    border: 1px solid red;
+    color: #727272;
+    font-size: 16px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    margin: 2px 2px 2px 0px;
+    line-height: 26px;
+    text-align: left;
+
+}
+
+.btn-main {
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #FF900E;
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: 18px;
+    margin-top: 18px;
+
+}
+
+/* --------------------
+         main section-2 with featuress and image
+         ------------------------- */
+
+.section-2-main {
+    width: 1440px;
+    height: 1059px;
+    margin: 130px 240px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side {
+    width: 5px;
+    height: 106px;
+    background-color: #FF900E;
+
+}
+
+
+.feature-title {
+    width: 468px;
+    height: 106px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.para-sec-2 {
+    width: 586px;
+    height: 78px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+
+}
+
+.feature-label {
+    width: 586px;
+    height: 744px;
+    border: 1px solid red;
+}
+
+.articles {
+    width: 586px;
+    height: 171px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 20px rgb(215, 212, 212);
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.articles h3, .articles p {
+    width: 514px;
+    height: 50px;
+    border: 1px solid yellowgreen;
+    margin-left: 30px;
+
+}
+
+.img-sec-2 {
+    border: 1px solid violet;
+    width: 800px;
+    height: 1059px;
+    margin-left: 55px;
+}
+
+.img-sec-2 img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.exp {
+    width: 342px;
+    height: 200px;
+    color: white;
+    background: #FF900E;
+    border-radius: 8px;
+    font-size: 65px;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+    margin-top: -200px;
+    margin-left: -50px;
+}
+
+.exp p {
+    margin: 50px 30px 50px 30px;
+    border: 1px solid red;
 }
