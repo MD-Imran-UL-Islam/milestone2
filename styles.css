@@ -561,7 +561,7 @@ Navigation bar
      -------
          ------------------
                  */
-
+/* 
     @media only screen and (max-width: 576px) {
         .sec-1-main {
             display: flex;
@@ -600,7 +600,7 @@ Navigation bar
             font-style: normal;
             font-weight: 700;
             font-size: 50px;
-            /* text-align: center; */
+            text-align: center; 
             color: #131313;
             margin-top: 80px;
         }
@@ -611,7 +611,7 @@ Navigation bar
         .sec-1-main {
             display: flex;
             margin-top: 85px;
-            /* align-items: flex-start; */
+        
             flex-direction: column;
         }
         .img-main {
@@ -619,8 +619,7 @@ Navigation bar
             grid-template-columns: repeat(1, 1fr);
             gap: 24px;
             align-items: flex-start;
-            /* margin-left: 301px; */
-        }
+           
 
         .info-main h2 {
             width: 468px;
@@ -629,7 +628,7 @@ Navigation bar
             font-style: normal;
             font-weight: 500;
             font-size: 45px;
-            /* margin: 0px; */
+          
         }
         .section-2-main {
             margin-right: 0px;
@@ -637,7 +636,7 @@ Navigation bar
             margin-top: 150px;
         }
 
-    }    
+    }     */
     
 
 /*---------
